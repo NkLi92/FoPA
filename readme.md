@@ -1,1 +1,1 @@
-- [сайт](https://github.com/NkLi92/FoPA.git)
+- [сайт](https://nkli92.github.io/FoPA/)

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>TechStore</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">Главная</a>
+                <a href="#products">Товары</a>
+                <a href="#about">О нас</a>
+            </nav>
+            <div class="cart-icon" id="cartIcon">
+                🛒 <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Добро пожаловать в TechStore</h2>
+            <p>Лучшие гаджеты по доступным ценам</p>
+        </div>
+    </section>
+
+    <!-- Фильтры товаров -->
+    <section class="filters">
+        <div class="container">
+            <button class="filter-btn active" data-category="all">Все товары</button>
+            <button class="filter-btn" data-category="phones">Смартфоны</button>
+            <button class="filter-btn" data-category="laptops">Ноутбуки</button>
+            <button class="filter-btn" data-category="accessories">Аксессуары</button>
+        </div>
+    </section>
+
+    <!-- Сетка товаров -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Наши товары</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Товары будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Корзина (модальное окно) -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <span class="close">&times;</span>
+            <h2>Ваша корзина</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Товары в корзине -->
+            </div>
+            <div class="cart-total">
+                <strong>Итого: <span id="cartTotal">0</span> руб.</strong>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Оформить заказ</button>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TechStore. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

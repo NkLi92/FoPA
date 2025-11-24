@@ -5,7 +5,7 @@ const products = [
         name: "iPhone 14 Pro",
         price: 99990,
         category: "phones",
-        image: "images/iphone14.jpg",
+        image: "img/IMG_1597.jpg",
         description: "Новый iPhone с динамическим островом и камерой 48 МП"
     },
     {
@@ -13,7 +13,7 @@ const products = [
         name: "Samsung Galaxy S23",
         price: 79990,
         category: "phones",
-        image: "images/galaxy-s23.jpg",
+        image: "img/1700239973365.jpg",
         description: "Мощный Android-смартфон с камерой 200 МП"
     },
     {
@@ -21,7 +21,7 @@ const products = [
         name: "MacBook Air M2",
         price: 129990,
         category: "laptops",
-        image: "images/macbook-air.jpg",
+        image: "img/d1a0f0279a993168961a86f2e2415203.jpg",
         description: "Ультратонкий ноутбук с чипом Apple M2"
     },
     {
@@ -29,7 +29,7 @@ const products = [
         name: "Dell XPS 13",
         price: 89990,
         category: "laptops",
-        image: "images/dell-xps.jpg",
+        image: "img/1685547710_idei-club-p-sakura-oboi-72.jpg",
         description: "Премиальный ноутбук с безрамочным дисплеем"
     },
     {
@@ -37,7 +37,7 @@ const products = [
         name: "AirPods Pro",
         price: 24990,
         category: "accessories",
-        image: "images/airpods-pro.jpg",
+        image: "img/1679331834_bogatyr-club-p-chernii-neon-oboi-foni-oboi-42.jpg",
         description: "Беспроводные наушники с шумоподавлением"
     },
     {
@@ -45,7 +45,7 @@ const products = [
         name: "Samsung Galaxy Watch",
         price: 19990,
         category: "accessories",
-        image: "images/galaxy-watch.jpg",
+        image: "img/diuna-pustynia-dune.jpg",
         description: "Умные часы с отслеживанием здоровья"
     },
     {
@@ -53,7 +53,7 @@ const products = [
         name: "Xiaomi 13",
         price: 59990,
         category: "phones",
-        image: "images/xiaomi13.jpg",
+        image: "img/1657707918_67-celes-club-p-tekstura-vulkana-krasivo-73.jpg",
         description: "Флагманский смартфон с камерой Leica"
     },
     {
@@ -61,7 +61,7 @@ const products = [
         name: "Чехол для iPhone",
         price: 1990,
         category: "accessories",
-        image: "images/iphone-case.jpg",
+        image: "img/15017451255982cfe5ebaf90.18040903.jpg",
         description: "Защитный чехол премиум-класса"
     }
 ];
